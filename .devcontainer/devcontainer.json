@@ -1,0 +1,38 @@
+{
+  "name": "Python NLP Dev Container",
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:3.11",  // You can update this to match your Python version
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
+        "pytorchsnippets.pytorch-snippets",
+        "nathanepstein.vscode-torch-lens",
+        "ms-python.tensorboard-preview",
+        "esbenp.prettier-vscode",
+        "joslarson.black-formatter",
+        "njpwerner.autodocstring",
+        "github.copilot",
+        "ms-vsliveshare.vsliveshare",
+        "dbaeumer.vscode-eslint",
+        "github.vscode-pull-request-github",
+        "kiteco.kite",
+        "littlefoxteam.vscode-python-test-adapter",
+        "alessandro1985.pandas-notebook",
+        "donjayamanne.githistory",
+        "ms-python.pylint"
+      ],
+      "settings": {
+        "python.condaPath": "",  // Disable conda environment discovery
+        "python.pythonPath": "/usr/local/bin/python3",
+        "editor.formatOnSave": true,
+        "python.formatting.provider": "black",  // Set Black as the default formatter
+        "editor.minimap.enabled": false,  // Disable the minimap
+        "workbench.sideBar.location": "right"  // Move the Explorer pane to the right
+      }
+    }
+  },
+  "postCreateCommand": "pip install -r requirements.txt",  // Add this if your project has a requirements file
+  "remoteUser": "vscode"
+}

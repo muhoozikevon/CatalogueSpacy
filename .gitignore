@@ -1,0 +1,104 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+lib/
+lib64/
+__pypackages__/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyInstaller
+# Usually contains the result of building a standalone executable
+build/
+dist/
+
+# Distribution / Packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pyvenv.cfg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code settings and extensions
+.vscode/
+
+# PyCharm specific files
+.idea/
+*.iml
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# MacOS metadata files
+.DS_Store
+
+# Log files
+*.log
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+nosetests.xml
+test-results.xml
+coverage/
+
+# Environment variables and virtual environment files
+.env
+.env.local
+.env.*.local
+.envrc
+*.envrc
+.vscode/settings.json
+
+# Cython debug symbols
+cython_debug/
+
+# Temporary files
+*.swp
+*.swo
+*.swn
+*~
+
+# Jupyter notebook temporary files
+*.nbconvert.ipynb
+
+# Ignore Docker-related files
+docker-compose.override.yml
+.dockerignore
+Dockerfile
+
+# Ignore devcontainer-related files, uncomment when using a devcontainer
+# .devcontainer/
