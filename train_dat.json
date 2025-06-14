@@ -1,0 +1,10 @@
+[
+  {
+    "text": "Apple is looking at buying U.K. startup for $1 billion",
+    "entities": [[0, 5, "ORG"], [27, 30, "GPE"], [44, 54, "MONEY"]]
+  },
+  {
+    "text": "San Francisco considers banning sidewalk delivery robots",
+    "entities": [[0, 13, "GPE"]]
+  }
+]
